@@ -7,7 +7,7 @@ jobs:
   dispatch:
     strategy:
       matrix:
-        repo: ['srikrishnan-lab/srikrishnan-lab.github.io', 'vsrikrish/my-cv']
+        repo: ['AndersonEnergyLab-Cornell/andersonenergylab-cornell.github.io']
     runs-on: ubuntu-latest
     steps:
       - name: Repository Dispatch
